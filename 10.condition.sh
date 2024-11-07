@@ -8,3 +8,5 @@ if [ $NUMBER -gt 5 ]
 else
 
     echo "given number $NUMBER is less than 5"
+
+fi
