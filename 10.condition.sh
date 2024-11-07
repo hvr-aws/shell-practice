@@ -1,7 +1,9 @@
 #!/bin/bash
 
 NUMBER= $1
+
 if [ $NUMBER -gt 5 ]
+then
 
     echo "given number $NUMBER is grater than 5"
 
