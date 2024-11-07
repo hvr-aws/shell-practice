@@ -3,7 +3,7 @@
 USERID=$(id -u)
 echo "user id is: $USERID"
 
-if [ USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
     echo "then run the script with root previlage"
     exit 1
